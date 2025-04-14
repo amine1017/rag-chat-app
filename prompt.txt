@@ -1,0 +1,15 @@
+# Log generator prompt
+Given 4 Java applications for payments processing
+ACQUIRE - Is the application that will receive the payment
+GREEN - Is the application that will enhance the payment with some data specifics
+PPE - Is payment processing engine that will process that payment
+KAMARA - Is the application that will store the MT messages
+ACCT - Is the accounting application
+Suppose that a payment is defined with a PAYMENT_ID that will be logged in all those applications respectively
+Generate a some logs with the respect the below format:
+YYYY-MM-DD HH:MM:SS.SSS Level [Thread ID] Class.method(SourceFile:line) - Message
+You can use some dummy thread id and classes and lines number
+Important to keep all the logs in the right date order and same PAYMENT_ID should be logged on all applications, failures should occure only at PEE Level
+The log message should be clear enough for an LLM to understand the payment status
+The log message start always with PAYMENT_ID between brackets 
+Generate some 500 lines of logs

@@ -1,0 +1,39 @@
+2025-04-14 15:19:10.100 INFO [nio-8080-exec-1] com.acquire.PaymentController.receivePayment(PaymentController.java:35) - [PAYMENT_123] Received payment request.
+2025-04-14 15:19:10.150 INFO [nio-8081-exec-2] com.green.EnhancementService.enhanceData(EnhancementService.java:52) - [PAYMENT_123] Payment data enhancement started.
+2025-04-14 15:19:10.210 INFO [nio-8081-exec-2] com.green.EnhancementService.enhanceData(EnhancementService.java:68) - [PAYMENT_123] Payment data enhanced successfully.
+2025-04-14 15:19:10.255 INFO [nio-8082-exec-3] com.ppe.PaymentProcessor.process(PaymentProcessor.java:45) - [PAYMENT_123] Processing payment.
+2025-04-14 15:19:10.315 INFO [nio-8083-exec-4] com.kamara.MessageStore.storeMTMessage(MessageStore.java:29) - [PAYMENT_123] Storing MT message.
+2025-04-14 15:19:10.380 INFO [nio-8084-exec-5] com.acct.AccountingService.updateAccount(AccountingService.java:61) - [PAYMENT_123] Accounting update initiated.
+2025-04-14 15:19:10.420 INFO [nio-8084-exec-5] com.acct.AccountingService.updateAccount(AccountingService.java:75) - [PAYMENT_123] Accounting updated successfully.
+
+2025-04-14 15:19:11.050 INFO [nio-8080-exec-6] com.acquire.PaymentController.receivePayment(PaymentController.java:35) - [PAYMENT_456] Received payment request.
+2025-04-14 15:19:11.110 INFO [nio-8081-exec-7] com.green.EnhancementService.enhanceData(EnhancementService.java:52) - [PAYMENT_456] Payment data enhancement started.
+2025-04-14 15:19:11.170 INFO [nio-8081-exec-7] com.green.EnhancementService.enhanceData(EnhancementService.java:68) - [PAYMENT_456] Payment data enhanced successfully.
+2025-04-14 15:19:11.225 INFO [nio-8082-exec-8] com.ppe.PaymentProcessor.process(PaymentProcessor.java:45) - [PAYMENT_456] Processing payment.
+2025-04-14 15:19:11.285 INFO [nio-8083-exec-9] com.kamara.MessageStore.storeMTMessage(MessageStore.java:29) - [PAYMENT_456] Storing MT message.
+2025-04-14 15:19:11.350 INFO [nio-8084-exec-10] com.acct.AccountingService.updateAccount(AccountingService.java:61) - [PAYMENT_456] Accounting update initiated.
+2025-04-14 15:19:11.390 INFO [nio-8084-exec-10] com.acct.AccountingService.updateAccount(AccountingService.java:75) - [PAYMENT_456] Accounting updated successfully.
+
+2025-04-14 15:19:12.010 INFO [nio-8080-exec-11] com.acquire.PaymentController.receivePayment(PaymentController.java:35) - [PAYMENT_789] Received payment request.
+2025-04-14 15:19:12.070 INFO [nio-8081-exec-12] com.green.EnhancementService.enhanceData(EnhancementService.java:52) - [PAYMENT_789] Payment data enhancement started.
+2025-04-14 15:19:12.130 INFO [nio-8081-exec-12] com.green.EnhancementService.enhanceData(EnhancementService.java:68) - [PAYMENT_789] Payment data enhanced successfully.
+2025-04-14 15:19:12.185 ERROR [nio-8082-exec-13] com.ppe.PaymentProcessor.process(PaymentProcessor.java:51) - [PAYMENT_789] Payment processing failed due to insufficient funds.
+2025-04-14 15:19:12.245 INFO [nio-8083-exec-14] com.kamara.MessageStore.storeMTMessage(MessageStore.java:29) - [PAYMENT_789] Storing MT message (failure scenario).
+2025-04-14 15:19:12.310 INFO [nio-8084-exec-15] com.acct.AccountingService.updateAccount(AccountingService.java:61) - [PAYMENT_789] Accounting update initiated (failure scenario).
+2025-04-14 15:19:12.350 WARN [nio-8084-exec-15] com.acct.AccountingService.updateAccount(AccountingService.java:70) - [PAYMENT_789] Accounting update skipped due to payment processing failure.
+
+2025-04-14 15:19:13.000 INFO [nio-8080-exec-16] com.acquire.PaymentController.receivePayment(PaymentController.java:35) - [PAYMENT_101] Received payment request.
+2025-04-14 15:19:13.060 INFO [nio-8081-exec-17] com.green.EnhancementService.enhanceData(EnhancementService.java:52) - [PAYMENT_101] Payment data enhancement started.
+2025-04-14 15:19:13.120 INFO [nio-8081-exec-17] com.green.EnhancementService.enhanceData(EnhancementService.java:68) - [PAYMENT_101] Payment data enhanced successfully.
+2025-04-14 15:19:13.175 INFO [nio-8082-exec-18] com.ppe.PaymentProcessor.process(PaymentProcessor.java:45) - [PAYMENT_101] Processing payment.
+2025-04-14 15:19:13.235 INFO [nio-8083-exec-19] com.kamara.MessageStore.storeMTMessage(MessageStore.java:29) - [PAYMENT_101] Storing MT message.
+2025-04-14 15:19:13.300 INFO [nio-8084-exec-20] com.acct.AccountingService.updateAccount(AccountingService.java:61) - [PAYMENT_101] Accounting update initiated.
+2025-04-14 15:19:13.340 INFO [nio-8084-exec-20] com.acct.AccountingService.updateAccount(AccountingService.java:75) - [PAYMENT_101] Accounting updated successfully.
+
+2025-04-14 15:19:14.020 INFO [nio-8080-exec-21] com.acquire.PaymentController.receivePayment(PaymentController.java:35) - [PAYMENT_222] Received payment request.
+2025-04-14 15:19:14.080 INFO [nio-8081-exec-22] com.green.EnhancementService.enhanceData(EnhancementService.java:52) - [PAYMENT_222] Payment data enhancement started.
+2025-04-14 15:19:14.140 INFO [nio-8081-exec-22] com.green.EnhancementService.enhanceData(EnhancementService.java:68) - [PAYMENT_222] Payment data enhanced successfully.
+2025-04-14 15:19:14.195 ERROR [nio-8082-exec-23] com.ppe.PaymentProcessor.process(PaymentProcessor.java:51) - [PAYMENT_222] Payment processing failed due to invalid currency.
+2025-04-14 15:19:14.255 INFO [nio-8083-exec-24] com.kamara.MessageStore.storeMTMessage(MessageStore.java:29) - [PAYMENT_222] Storing MT message (failure scenario).
+2025-04-14 15:19:14.320 INFO [nio-8084-exec-25] com.acct.AccountingService.updateAccount(AccountingService.java:61) - [PAYMENT_222] Accounting update initiated (failure scenario).
+2025-04-14 15:19:14.360 WARN [nio-8084-exec-25] com.acct.AccountingService.updateAccount(AccountingService.java:70) - [PAYMENT_222] Accounting update skipped due to payment processing failure.
