@@ -11,5 +11,6 @@ YYYY-MM-DD HH:MM:SS.SSS Level [Thread ID] Class.method(SourceFile:line) - Messag
 You can use some dummy thread id and classes and lines number
 Important to keep all the logs in the right date order and same PAYMENT_ID should be logged on all applications, failures should occure only at PEE Level
 The log message should be clear enough for an LLM to understand the payment status
-The log message start always with PAYMENT_ID between brackets 
+The log message start always with PAYMENT_ID between brackets
+With each log in PPE Application side, we should also have the payment status: FEE_WAIT, FX_WAIT
 Generate some 500 lines of logs
